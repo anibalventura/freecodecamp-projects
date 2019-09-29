@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1><img src="insumos/images/logo.png" alt="Logo" /> TuServicio.com</h1>
+      <h2>Te reparamos el computador</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contactenos.html">Contáctenos</a></li>
+        <li><a href="inicioDeSesion.html">Inicio de Sesión</a></li>
+        <li><a href="registro.html">Registro</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <main>
+      <h2>Registro</h2>
+      <form>
+        <fieldset>
+          <legend>Nuevo Usuario</legend>
+          <p>
+            <label for="email">Email*</label><br />
+            <input type="email" name="email" required />
+          </p>
+          <p>
+            <label for="contrasena">Contrasena*</label><br />
+            <input type="password" name="contrasena" required />
+          </p>
+          <p>
+            <label for="contrasena">Confirmar Contrasena*</label><br />
+            <input type="password" name="contrasena" required />
+          </p>
+          <p>
+            Donde nos vio? <br />
+            <label for="google">
+              <input type="radio" name="vio" id="google" />Google</label
+            ><br />
+            <label for="otro"
+              ><input type="radio" name="vio id=" otro">Otro</label
+            >
+          </p>
+          <p>
+            <label for="comentario">Comentario</label><br />
+            <textarea name="comentario" cols="30" rows="10"></textarea>
+          </p>
+          <p>
+            <label for="acepta"
+              ><input type="checkbox" required />Acepta los terminos y
+              condiciones.*</label
+            >
+          </p>
+          <p>
+            <input type="submit" value="Continuar" />
+          </p>
+        </fieldset>
+      </form>
+    </main>
+    <hr />
+  </body>
+  <footer>
+    <p>Derechos Reservados.</p>
+  </footer>
+</html>

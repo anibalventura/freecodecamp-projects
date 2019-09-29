@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio</title>
+</head>
+
+<body>
+    <h1>Registrarse en nuestra tienda.</h1>
+    <form>
+        <fieldset>
+            <legend>Registro tienda</legend>
+
+            <p>
+                <label for="nombre">Nombre de usuario*:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Anibal" required>
+            </p>
+
+            <p>
+                <label for="correo">Email*:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="Ej: anibal@gmail.com" required>
+            </p>
+
+            <p>
+                <label for="edad">Edad:</label><br>
+                <input type="number" id="edad" name="edad">
+            </p>
+
+            <p>
+                <label for="genero">Genero:</label><br>
+                <select>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>Otro</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="recomendado">Recomendado por:</label><br>
+                <select>
+                    <option>Google</option>
+                    <option>Amigo</option>
+                    <option>Redes Sociales</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="comentario">Comentario:</label><br>
+                <textarea id="comentario" name="comentario" cols="30" rows="3"></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" name="terminos" required>
+                <label for="terminos">Acepto los terminos y condiciones.*</label>
+            </p>
+
+            <p>
+                <input type="submit" value="Registrar">
+            </p>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
