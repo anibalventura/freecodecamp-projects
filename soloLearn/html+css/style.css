@@ -7,7 +7,6 @@ body {
 
 header {
     background-color: blue;
-    margin: 0px 0px 15px 0px;
     padding: 5px 5px 15px 5px;
     box-shadow: 1px 1px 5px 1px black;
     position: fixed;
@@ -22,9 +21,10 @@ header {
 div {
     background-color: green;
     border-radius: 10px;
-    margin: 30px 450px 15px 450px;
-    padding: 5px 5px 15px 5px;
+    margin: 125px 15px 15px 150px;
+    padding: 0px 5px 15px 5px;
     box-shadow: 10px 10px 5px 1px black;
+    top: 100%;
 }
 
 section div:first-child {
@@ -71,4 +71,9 @@ a:hover {
 
 footer {
     align-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
 }
