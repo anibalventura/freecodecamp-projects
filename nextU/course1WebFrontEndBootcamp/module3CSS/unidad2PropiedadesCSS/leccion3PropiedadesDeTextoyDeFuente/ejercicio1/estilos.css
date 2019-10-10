@@ -1,0 +1,39 @@
+@font-face {
+	font-family: FuenteLato;
+	src: "url(/nextU/course1WebFrontEndBootcamp/module3CSS/unidad2PropiedadesCSS/leccion3PropiedadesDeTextoyDeFuente/ejercicio1/fonts/Lato-Regular.ttf)";
+}
+
+body{
+	margin: 20px;
+	font-family: Lora;
+}
+
+.resaltado{
+	background-color: yellow;
+	color: black;
+}
+
+#menu-principal{
+	padding: 10px 0px;
+}
+
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 10px;
+}
+
+#menu-principal {
+	font-family: "FuenteLato";
+	font-style: italic;
+}
+
+section h1 {
+	font-variant: small-caps;
+}
