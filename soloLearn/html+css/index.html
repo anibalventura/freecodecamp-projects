@@ -1,89 +1,96 @@
 <html>
-  <head>
-      <title>My Blog</title>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-      <header>
-          <h1>Welcome to Anibal's Blog!</h1>
-          <nav>
-              <a href="#aboutMe">About Me</a> -
-              <a href="#mySkills">My Skills</a> -
-              <a href="#myCodingSchedule">My Coding Schedule</a> -
-              <a href="#myMedia">My Media</a> -
-              <a href="#contactMe">Contact Me</a>
-          </nav>
-      </header>
-      <section>
-          <div id="aboutMe" class="aboutMe">
-              <h2>About Me</h2>
-              <p> Hey! I'm <strong>Anibal</strong>! And i'm starting to learn <strong>Web Devlopment.</strong></p>
-              <p class="quote">"Declare variables, not war".</p>
-          </div>
-          <div id="mySkills" class="mySkills">
-              <h2 name="mySkills">My Skills</h2>
-              <table>
-                  <tr>
-                      <td>HTML</td>
-                      <td><progress min="0" max="100" value="85"></progress></td>
-                  </tr>
-                  <tr>
-                      <td>CSS</td>
-                      <td><progress min="0" max="100" value="50"></progress></td>
-                  </tr>
-                  <tr>
-                      <td>JavaScript</td>
-                      <td><progress min="0" max="100" value="0"></progress></td>
-                  </tr>
-              </table>
-          </div>
-          <div id="myCodingSchedule" class="myCodingSchedule">
-              <h2 name="myCodingSchedule">My Coding Schedule</h2>
-              <table>
-                  <tr>
-                      <th>Time/Day</th>
-                      <th>Mon</th>
-                      <th>Tue</th>
-                      <th>Wed</th>
-                      <th>Thu</th>
-                      <th>Fri</th>
-                  </tr>
-                  <tr>
-                      <td>8pm-10pm</td>
-                      <td>Learn</td>
-                      <td>Learn</td>
-                      <td>Learn</td>
-                      <td>Learn</td>
-                      <td>Learn</td>
-                  </tr>
-              </table>
-          </div>
-          <div id="myMedia" class="myMedia">
-              <h2 name="myMedia">My Media</h2>
-              <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0">
-              </iframe>
-          </div>
-          <div id="contactMe" class="contactMe">
-              <h2 name="contactMe">Contact Me</h2>
-              <form>
-                  <label>Nombre: *</label><br>
-                  <input name="name" type="text" placeholder="Escribe tu nombre" required /><br><br>
-                  <label>Email: *</label><br>
-                  <input name="email" type="email" placeholder="email@example.com" required /><br><br>
-                  <label>Mensaje: *</label><br>
-                  <textarea name="message" width="1000" height="150" placeholder="Tu mensaje aqui" required></textarea><br><br>
-                  <input type="submit" value="Enviar" class="submit" />
-              </form>
-          </div>
-        </section>
-        <hr>
-        <footer>
-            <h4>Follow me on:</h4>
-            <a href="#">Dev.to</a> |
-            <a href="#">Github</a> |
-            <a href="#">StackOverflow</a>
-            <h5>Site created by Anibal Ventura</h5>
-        </footer>
-  </body>
+
+<head>
+    <title>My Blog</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Anibal's Blog!</h1>
+        <nav>
+            <a href="#aboutMe">About Me</a> -
+            <a href="#mySkills">My Skills</a> -
+            <a href="#myCodingSchedule">My Coding Schedule</a> -
+            <a href="#myMedia">My Media</a> -
+            <a href="#contactMe">Contact Me</a>
+        </nav>
+    </header>
+    <section>
+        <div id="aboutMe" class="aboutMe">
+            <h2>About Me</h2>
+            <p> Hey! I'm <strong>Anibal</strong>! And i'm starting to learn <strong>Web Devlopment.</strong></p>
+            <p class="quote">"Declare variables, not war".</p>
+        </div>
+        <div id="mySkills" class="mySkills">
+            <h2 name="mySkills">My Skills</h2>
+            <table>
+                <tr>
+                    <td>HTML</td>
+                    <td><progress min="0" max="100" value="85"></progress></td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td><progress min="0" max="100" value="50"></progress></td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td><progress min="0" max="100" value="0"></progress></td>
+                </tr>
+            </table>
+        </div>
+        <div id="myCodingSchedule" class="myCodingSchedule">
+            <h2 name="myCodingSchedule">My Coding Schedule</h2>
+            <table>
+                <tr>
+                    <th>Time/Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>8pm-10pm</td>
+                    <td>Learn</td>
+                    <td>Learn</td>
+                    <td>Learn</td>
+                    <td>Learn</td>
+                    <td>Learn</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div id="myMedia" class="myMedia">
+            <h2 name="myMedia">My Media</h2>
+            <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen
+                frameborder="0">
+            </iframe>
+        </div>
+        <div id="contactMe" class="contactMe">
+            <h2 name="contactMe">Contact Me</h2>
+            <form>
+                <label>Nombre: *</label><br>
+                <input name="name" type="text" placeholder="Escribe tu nombre" required /><br><br>
+                <label>Email: *</label><br>
+                <input name="email" type="email" placeholder="email@example.com" required /><br><br>
+                <label>Mensaje: *</label><br>
+                <textarea name="message" width="1000" height="150" placeholder="Tu mensaje aqui"
+                    required></textarea><br><br>
+                <input type="submit" value="Enviar" class="submit" />
+            </form>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <h4>Follow me on:</h4>
+        <a href="#">Dev.to</a> |
+        <a href="#">Github</a> |
+        <a href="#">StackOverflow</a>
+        <h5>Site created by Anibal Ventura</h5>
+    </footer>
+</body>
+
 </html>
