@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    border-bottom: solid 2px grey;
+    margin-bottom: 20px;
+}
+
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.adaptativaPorcentaje1 {
+    width: 50%;
+}
+
+.adaptativaPorcentaje2 {
+    width: 70%;
+}
+
+.adaptativaPorcentaje3 {
+    width: 50%;
+}
+
+.adaptativaPorcentaje4 {
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    border-top: solid 2px blue;
+    text-align: center;
+    margin-top: 20px;
+}
