@@ -34,5 +34,30 @@ figure {
 }
 
 figure img {
-	width: 420px;
+	width: 40%;
+}
+
+#image1 img {
+	transition: 0.5s;
+}
+
+#image1 img:hover {
+	border: solid 4px black;
+}
+
+#image2 img {
+	opacity: 0.1;
+	transition: 1s;
+}
+
+#image2 img:hover {
+	opacity: 1;
+}
+
+#image3 img {
+	transition: 0.5s;
+}
+
+#image3 img:hover {
+	width: 60%;
 }
