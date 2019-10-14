@@ -21,15 +21,27 @@ img {
 }
 
 #image1 {
-  transform: rotate(10deg);
+  perspective: 2000px;
+}
+
+#image1 img {
+  transform: rotateY(40deg);
 }
 
 #image2 {
-  transform: rotate(90deg);
+  perspective: 2000px;
+}
+
+#image2 img {
+  transform: rotateY(-30deg);
 }
 
 #image3 {
-  transform: rotate(-10deg);
+  perspective: 100px;
+}
+
+#image3 img {
+  transform: rotateX(40deg);
 }
 
 figure {
