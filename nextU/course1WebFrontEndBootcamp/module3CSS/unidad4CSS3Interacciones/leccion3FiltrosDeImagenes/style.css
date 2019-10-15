@@ -1,0 +1,60 @@
+body {
+  margin: 20px;
+  background-color: black;
+  color: white;
+  font-family: Raleway;
+}
+
+header h1 {
+  text-align: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+#content > h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  border-top: solid 1px white;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  border: 2px solid white;
+  width: 250px;
+}
+
+.container > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+#image1 img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#image2 img {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+#image3 {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
