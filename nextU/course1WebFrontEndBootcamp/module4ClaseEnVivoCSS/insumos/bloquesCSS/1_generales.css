@@ -1,0 +1,61 @@
+/* Bloque 1: Se dejan predefenidos las propiedades de los elementos contenedores para evitar
+que el navegador las asigne de manera arbitraria.
+Relevancia: Baja
+ */
+ html,
+ body,
+ div,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ ul,
+ form,
+ footer,
+ header,
+ menu,
+ nav {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   vertical-align: baseline;
+ }
+ /*--------------------------------------------------------------------------------*/
+ /*Bloque 2: Se definen como variables de los colores y fuentes usadas en el proyecto
+ Relevancia: Alta*/
+ :root {
+   --color-1: #e1e3e1;
+   --color-2: #fdfcec;
+   --color-3: #eff9e9;
+   --color-4: #fcf2e9;
+   --color-5: #fdeae3;
+   --color-6: #bc554e;
+   --color-7: #f7b787;
+   --fuente-titulos: "Love Ya Like A Sister", cursive;
+ }
+ /*--------------------------------------------------------------------------------*/
+ /*Bloque 3: Aplicacion de la tipografia general de la pagina
+ Relevancia: Alta
+ */
+ body {
+   font-family: "DM Serif Text", serif;
+   margin: 0;
+   padding: 0;
+ }
+ /*--------------------------------------------------------------------------------*/
+ /*Bloque 4: Aplicacion de la tipografia por medio de variable a las etiquetas de encabezado
+ Relevancia: Alta*/
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: var(--fuente-titulos);
+ }
+ /*--------------------------------------------------------------------------------*/

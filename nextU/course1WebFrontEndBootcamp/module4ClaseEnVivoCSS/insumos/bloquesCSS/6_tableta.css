@@ -1,0 +1,70 @@
+/* A partir de Aqui se desarrolla el codigo para tabletas haciendo uso del media querie */
+@media (min-width: 640px) {
+    /*Bloque 23: Asignamos que los elementos h1 y del menu se organicen en linea, de manera horizontal
+    Relevancia: Alta*/
+      header h1 {
+        display: inline;
+      }
+    
+      header nav,
+      header nav ul {
+        display: inline;
+      }
+    /*--------------------------------------------------------------------------------*/
+    /*Bloque 24: Defincion altura contenedor principal para tabletas 
+    Relevancia: Alta*/
+    
+      .principal {
+        height: 550px;
+      }
+    /*--------------------------------------------------------------------------------*/
+    /*Bloque 25: Reasignacion de propiedades del contenedor del slogan para tabletas, se cambian los valores
+    de margen, padding, tamaño de fuente y se define un ancho maximo para una mejor visualizacion en este tamaño
+    Relevancia: Alta*/
+      .principal .contenido {
+        margin: 40px auto;
+        padding: 30px;
+        max-width: 600px;
+        font-size: 1.6rem;
+      }
+    /*--------------------------------------------------------------------------------*/
+    /*Bloque 26: Reasignacion de tamaño de fuente de los encabezados h2 de los contenedores de lugares
+    Relevancia: Baja */
+      .lugar h2 {
+        font-size: 5rem;
+      }
+    /*--------------------------------------------------------------------------------*/
+    /*Bloque 27: El contenido de los contenedores de lugares se redefine como flexible, para poder manipularlo
+    eficientemente y que se adapte mejor 
+    Relevancia: Alta*/
+      .lugar .contenido {
+        display: flex;
+      }
+    /*--------------------------------------------------------------------------------*/
+    /*Bloque 28: Redistribucion equitativa del espacio para los contenedores div referente al contenido de cada lugar
+    Relevancia: Alta*/
+      .lugar .contenido div {
+        flex: 1;
+      }
+    /*--------------------------------------------------------------------------------*/
+    /*Bloque 29: El contenido del pie de pagina se redefine como flexible, para poder manipularlo
+    eficientemente y que se adapte mejor 
+    Relevancia: Baja*/
+      footer {
+        display: flex;
+      }
+    /*--------------------------------------------------------------------------------*/
+    /*Bloque 30: Redistribucion equitativa del espacio para los contenedores div hijos del footer o pie de pagina
+    Relevancia: Baja  */
+      footer > div {
+        flex: 1;
+      }
+    /*--------------------------------------------------------------------------------*/
+    /*Bloque 31: Eliminacion de la separacion entre el contenedor de contacto y su elemento superior
+    Relevancia: Baja*/
+      footer .contacto {
+        margin-top: 0;
+      }
+    /*--------------------------------------------------------------------------------*/
+    }
+    /*Aqui finaliza el codigo para tabletas*/
