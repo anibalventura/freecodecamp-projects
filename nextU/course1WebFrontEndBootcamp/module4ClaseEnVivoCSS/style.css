@@ -11,21 +11,19 @@ nav {
 }
 
 header {
-    width: 100%;
-    text-align: center;
-    background-image: url(images/inicial.JPG);
-    color: white;
     margin: 0;
     padding: 0;
+    text-align: center;
+    color: white;
+    background-image: url(images/inicial.JPG);
     background-size: cover;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 50px);
-    gap: 150px;
-    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    row-gap: 150px;
     margin: 0 5% 0 5%;
 }
 
@@ -35,36 +33,63 @@ img {
 
 .b1 {
     grid-column-start: 1;
-    grid-column-end:   1;
+    grid-column-end: 1;
 }
 
 .b2 {
     grid-column-start: 2;
-    grid-column-end:   2;
+    grid-column-end: 2;
 }
 
 .b3 {
     grid-column-start: 3;
-    grid-column-end:   3;
+    grid-column-end: 3;
 }
 
 .b4 {
     grid-row-start: 2;
-    grid-column-end:   2;
+    grid-column-end: 2;
 }
 
 .b5 {
     grid-row-start: 2;
-    grid-column-end:   3;
+    grid-column-end: 3;
 }
 
 .b6 {
     grid-row-start: 2;
-    grid-column-end:   4;
+    grid-column-end: 4;
 }
+
+.b7 {
+    grid-row-start: 3;
+    grid-column-end: 2;
+}
+
+.b8 {
+    grid-row-start: 3;
+    grid-column-end: 3;
+}
+
+.b9 {
+    grid-row-start: 3;
+    grid-column-end: 4;
+}
+
+.contacto {
+    grid-row-start: 4;
+    grid-column-end: 2;
+}
+
+.formulario {
+    grid-row-start: 4;
+    grid-column-end: 4;
+}
+
 
 footer {
     margin-top: 100px;
+    text-align: center;
 }
 
 footer .derechos {
