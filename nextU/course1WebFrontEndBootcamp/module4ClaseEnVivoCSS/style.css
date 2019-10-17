@@ -1,4 +1,74 @@
-body {
+html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: solid black 2px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-image: url(images/inicial.JPG);
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 50px);
+    gap: 150px;
+    width: 100%;
+    margin: 0 5% 0 5%;
+}
+
+img {
+    width: 100px;
+}
+
+.b1 {
+    grid-column-start: 1;
+    grid-column-end:   1;
+}
+
+.b2 {
+    grid-column-start: 2;
+    grid-column-end:   2;
+}
+
+.b3 {
+    grid-column-start: 3;
+    grid-column-end:   3;
+}
+
+.b4 {
+    grid-row-start: 2;
+    grid-column-end:   2;
+}
+
+.b5 {
+    grid-row-start: 2;
+    grid-column-end:   3;
+}
+
+.b6 {
+    grid-row-start: 2;
+    grid-column-end:   4;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer .derechos {
+    border-top: solid black 2px;
+    text-align: center;
+    font-size: 13px;
+}
