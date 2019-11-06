@@ -25,14 +25,17 @@
     <p>
       <label>Email</label>
       <input type="text" name="email" id="email">
+      <span id="errorEmail" class="error"></span>
     </p>
     <p>
       <label>Contraseña</label>
       <input type="password" name="contrasena" id="contrasena">
+      <span id="errorContrasena" class="error"></span>
     </p>
     <p>
       <label>Contraseña (Confirmación)</label>
       <input type="password" name="confirmacion" id="confirmacion">
+      <span id="errorContrasenaConfirmacion" class="error"></span>
     </p>
 
     <p>
@@ -41,6 +44,7 @@
       <label for="m">Masculino</label>
       <input type="radio" name="genero" id="f" value="f">
       <label for="f">Femenino</label>
+      <span id="errorGenero" class="error"></span>
     </p>
 
     <p>
@@ -51,11 +55,13 @@
         <option value="2">Brasil</option>
         <option value="3">México</option>
       </select>
+      <span id="errorPais" class="error"></span>
     </p>
 
     <p>
       <label for="terminos">
         <input type="checkbox" name="terminos" id="terminos" value="acepta"> Acepta términos y condiciones</label>
+        <span id="errorTerminos" class="error"></span>
     </p>
 
     <p>
