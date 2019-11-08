@@ -1,2 +1,2 @@
 # learningCode
-All the ejercices from sites/books used to learn code.
+All the exercices from sites/books used to learn Web Development.
