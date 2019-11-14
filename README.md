@@ -1,12 +1,12 @@
 # Learning Web Development
 All the exercices from websites/books i used to learn Web Development.
 
-SoloLearn
+**SoloLearn**
   - [X] HTML Fundamentals
   - [X] CSS Fundamentals
   - [ ] Python 3 Tutorial
 
-NextU
+**NextU**
   - [ ] Web Front End Bootcamp
   - [ ] Tecnologías Web Front End
   - [ ] Tecnologías Web Back End
