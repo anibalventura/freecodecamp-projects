@@ -1,12 +1,14 @@
 # Learning Web Development
-All the exercices from websites/books i used to learn Web Development.
+All the exercices from courses/books i take to learn Web Development.
 
-**SoloLearn**
+# Courses
+
+- **SoloLearn**
   - [X] [HTML Fundamentals](https://github.com/anibalventura/learningWebDev/tree/master/soloLearn/htmlAndCSSFundamentals)
   - [X] [CSS Fundamentals](https://github.com/anibalventura/learningWebDev/tree/master/soloLearn/htmlAndCSSFundamentals)
-  - [ ] Python 3 Tutorial
+  - [X] [Python 3 Tutorial](https://github.com/anibalventura/learningWebDev/tree/master/soloLearn/python3Tutorial)
 
-**NextU**
+- **NextU**
   - [ ] [Web Front End Bootcamp](https://github.com/anibalventura/learningWebDev/tree/master/nextU/curso1WebFrontEndBootcamp)
   - [ ] Tecnologías Web Front End
   - [ ] Tecnologías Web Back End
@@ -18,3 +20,8 @@ All the exercices from websites/books i used to learn Web Development.
   - [ ] Plataformas E-Commerce & Contenido (CMS)
   - [ ] Fundamentos de Programación en Python
   - [ ] Aplicaciones Híbridas
+
+
+# Books
+
+- [ ] Automating The Boring Stuff
