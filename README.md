@@ -1,4 +1,4 @@
-# learningCode
+# Learning Web Development
 All the exercices from websites/books i used to learn Web Development.
 
 SoloLearn
