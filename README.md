@@ -24,4 +24,4 @@ All the exercices from courses/books i take to learn Web Development.
 
 # Books
 
-- [ ] Automating The Boring Stuff..
+- [ ] Automating The Boring Stuff
