@@ -57,7 +57,6 @@ function validar(formulario) {
   if (formulario.edad.value == "") {
     document.getElementById("errorEdad").innerText =
       " Debe seleccionar un rango de edad.";
-    formulario.edad.focus();
     return false;
   }
 
