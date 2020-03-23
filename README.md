@@ -2,7 +2,7 @@
 
 All the projects/exercises from the courses/challenges i take to learn Web Development.
 
-# [freeCodeCamp](/freecodecamp/)
+# freeCodeCamp
 
 ```
 Status: In progress.
@@ -14,7 +14,7 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
 
 See the results of my projects [here](/freecodecamp/README.md).
 
-# [JavaScript30](/javascript30/)
+# JavaScript30
 
 ```
 Status: Finished.
