@@ -1,5 +1,9 @@
 # [JavaScript30](/javascript30/)
 
+**Status: Finished.**
+
+[JavaScript30](https://javascript30.com/) is a 30 day vanilla JS coding challenge created by [Wes Bos](https://wesbos.com/), where you build 30 things in 30 days.
+
 I only put here the exercises that can have a live page.
 
 **Note:** The order or names of the exercises not necessarily are the sames in the course.
