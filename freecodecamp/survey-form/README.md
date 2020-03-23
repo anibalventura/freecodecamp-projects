@@ -1,10 +1,8 @@
 # Survey Form
 
-Simple survey form.
+Static webpage with a survey form.
 
-Visit live page: [https://anibalventura.github.io/survey-form](https://anibalventura.github.io/survey-form)
-
-This is from a project of "Responsive Web Design Certification" on [freeCodeCamp.org](https://www.freecodecamp.org/learn/) curriculum.
+Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodecamp/survey-form).
 
 # Features
 
@@ -16,6 +14,6 @@ This is from a project of "Responsive Web Design Certification" on [freeCodeCamp
 - HTML
 - CSS
 
-# Authors
+# Author
 
 Anibal Ventura

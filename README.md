@@ -25,3 +25,9 @@ See the results of my projects [here](/freecodecamp/README.md).
 See the results of my exercises [here](/javascript30/README.md).
 
 # CSS Grid
+
+**Status: Finished.**
+
+Learn [CSS Grid](https://cssgrid.io/) with [Wes Bos](https://wesbos.com/) in 25 pretty good videos.
+
+See the results of my exercises [here](/css-grid/README.md).

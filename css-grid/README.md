@@ -1,7 +1,11 @@
-# CSS Grid
-All the exercices from courses/books i take to learn Web Development.
+# [CSS Grid](/css-grid/)
 
-# Exercices
+I only put here the exercises that can have a live page.
 
-- **SoloLearn**
-  - [X] [album layout](css-grid/album-layout/)
+**Note:** The order or names of the exercises not necessarily are the sames in the course.
+
+- [Album Layout](/css-grid/album-layout/)
+- [Blog Layout](/css-grid/blog-layout/)
+- [Codepen Clone](/css-grid/codepen-clone/)
+- [Image Gallery](/css-grid/image-gallery/)
+- [restaurant Menu Layout](/css-grid/restaurant-menu-layout/)

@@ -2,9 +2,7 @@
 
 Single lading page for home-made guitars.
 
-Visit live page: [https://anibalventura.github.io/product-landing-page](https://anibalventura.github.io/product-landing-page)
-
-This is from a project of "Responsive Web Design Certification" on [freeCodeCamp.org](https://www.freecodecamp.org/learn/) curriculum.
+Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodecamp/product-landing-page).
 
 # Features
 
@@ -18,6 +16,6 @@ This is from a project of "Responsive Web Design Certification" on [freeCodeCamp
 - HTML
 - CSS
 
-# Authors
+# Author
 
 Anibal Ventura
