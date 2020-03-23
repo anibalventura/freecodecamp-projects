@@ -2,9 +2,7 @@
 
 Webpage that can use the Webcam and take a photo.
 
-Visit live page: [https://anibalventura.github.io/webcam/](https://anibalventura.github.io/webcam/)
-
-The design is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/webcam/).
 
 # Features
 
@@ -14,7 +12,8 @@ The design is from a exercise on [JavaScript 30](https://javascript30.com/).
 
 # Requeriments
 
-If you clone the repository and want to use in your local computer, you need to run it in a local server in order to enable the webcam, you can use Visual Studio Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+If you clone the repository and want to use in your local computer, you need to run it in a local server in order to enable the webcam.
+You can use Visual Studio Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 
 # Technologies
 
@@ -22,6 +21,6 @@ If you clone the repository and want to use in your local computer, you need to 
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

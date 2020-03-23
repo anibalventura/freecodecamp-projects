@@ -2,9 +2,7 @@
 
 Minimal webpage for a countdown timer in minutes or seconds with default options for select time or receive user input.
 
-Visit live page: [https://anibalventura.github.io/countdown-timer/](https://anibalventura.github.io/countdown-timer/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/countdown-timer/).
 
 # Features
 
@@ -21,6 +19,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

@@ -2,9 +2,7 @@
 
 Simple check list for a restaurant "Local Tapas".
 
-Visit live page: [https://anibalventura.github.io/check-list/](https://anibalventura.github.io/check-list/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/check-list/).
 
 # Features
 
@@ -17,6 +15,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

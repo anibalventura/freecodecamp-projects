@@ -2,9 +2,7 @@
 
 Single page with a search box that looking for cities/states.
 
-Visit live page: [https://anibalventura.github.io/search-box/](https://anibalventura.github.io/search-box/)
-
-The design is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/search-box/).
 
 # Features
 
@@ -18,6 +16,6 @@ The design is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

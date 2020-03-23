@@ -14,6 +14,6 @@ Visit live page [here](https://anibalventura.github.io/learning-webdev/javascrip
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

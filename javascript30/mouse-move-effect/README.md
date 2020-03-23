@@ -1,8 +1,6 @@
 # Mouse Move Effect
 
-Visit live page: [https://anibalventura.github.io/mouse-move-effect/](https://anibalventura.github.io/mouse-move-effect/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/mouse-move-effect/).
 
 # Features
 
@@ -14,6 +12,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

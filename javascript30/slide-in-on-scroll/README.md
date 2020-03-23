@@ -1,8 +1,6 @@
 # Slide In Effect On Scroll
 
-Visit live page: [https://anibalventura.github.io/slide-in-on-scroll/](https://anibalventura.github.io/slide-in-on-scroll/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/slide-in-on-scroll/).
 
 # Features
 
@@ -14,6 +12,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

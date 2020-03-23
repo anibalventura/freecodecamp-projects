@@ -2,9 +2,7 @@
 
 Fun whack a mole game that runs for 15 seconds.
 
-Visit live page: [https://anibalventura.github.io/whack-a-mole-game/](https://anibalventura.github.io/whack-a-mole-game/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/whack-a-mole-game/).
 
 # Features
 
@@ -18,6 +16,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

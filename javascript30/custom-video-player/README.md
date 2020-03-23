@@ -1,8 +1,6 @@
 # Custom Video Player
 
-Visit live page: [https://anibalventura.github.io/custom-video-player/](https://anibalventura.github.io/custom-video-player/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/custom-video-player/).
 
 # Features
 
@@ -18,6 +16,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

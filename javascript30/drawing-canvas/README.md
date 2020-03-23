@@ -1,8 +1,8 @@
 # Drawing Canvas
 
-Visit live page: [https://anibalventura.github.io/drawing-canvas/](https://anibalventura.github.io/drawing-canvas/)
+Plain page to draw with the mouse.
 
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/drawing-canvas/).
 
 # Features
 
@@ -15,6 +15,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

@@ -1,8 +1,6 @@
 # Flex Panel Gallery
 
-Visit live page: [https://anibalventura.github.io/flex-panel-gallery/](https://anibalventura.github.io/flex-panel-gallery)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/flex-panel-gallery).
 
 # Features
 
@@ -14,6 +12,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

@@ -2,11 +2,13 @@
 
 All the projects/exercises from the courses/challenges i take to learn Web Development.
 
+- [freeCodeCamp](#freecodecamp)
+- [JavaScript30](#javascript30)
+- [CSS Grid](#css-grid)
+
 # freeCodeCamp
 
-```
-Status: In progress.
-```
+**Status: In progress.**
 
 [freeCodeCamp](https://www.freecodecamp.org/) is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.
 
@@ -16,9 +18,7 @@ See the results of my projects [here](/freecodecamp/README.md).
 
 # JavaScript30
 
-```
-Status: Finished.
-```
+**Status: Finished.**
 
 [JavaScript30](https://javascript30.com/) is a 30 day vanilla JS coding challenge created by [Wes Bos](https://wesbos.com/), where you build 30 things in 30 days.
 

@@ -2,9 +2,7 @@
 
 Navbar that show a box menu on mouse hovering.
 
-Visit live page: [https://anibalventura.github.io/follow-along-nav/](https://anibalventura.github.io/follow-along-nav/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/follow-along-nav/).
 
 # Features
 
@@ -16,6 +14,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

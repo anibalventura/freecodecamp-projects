@@ -2,9 +2,7 @@
 
 Simple list that can be checked all items with a shortcut.
 
-Visit live page: [https://anibalventura.github.io/hold-shift-and-check/](https://anibalventura.github.io/hold-shift-and-check/)
-
-The design is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/hold-shift-and-check/).
 
 # Features
 
@@ -16,6 +14,6 @@ The design is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

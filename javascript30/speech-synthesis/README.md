@@ -2,9 +2,7 @@
 
 Page tool that can speech the text that the user enters.
 
-Visit live page: [https://anibalventura.github.io/speech-synthesis/](https://anibalventura.github.io/speech-synthesis/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/speech-synthesis/).
 
 # Features
 
@@ -19,6 +17,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura

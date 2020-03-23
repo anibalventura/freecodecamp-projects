@@ -1,8 +1,6 @@
 # Update CSS Variables With JS
 
-Visit live page: [https://anibalventura.github.io/update-css-with-js/](https://anibalventura.github.io/update-css-with-js/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/update-css-with-js/).
 
 # Features
 
@@ -16,6 +14,6 @@ This is from a exercise on [JavaScript 30](https://javascript30.com/).
 - CSS
 - JavaScript
 
-# Authors
+# Author
 
 Anibal Ventura
