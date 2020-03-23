@@ -2,9 +2,7 @@
 
 Simple page with a centered analog clock.
 
-Visit live page: [https://anibalventura.github.io/analog-clock/](https://anibalventura.github.io/analog-clock/)
-
-This is from a exercise on [JavaScript 30](https://javascript30.com/).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/javascript30/analog-clock/).
 
 # Features
 
