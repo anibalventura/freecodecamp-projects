@@ -2,10 +2,10 @@ import React, { Component } from "react";
 
 class Button extends Component {
   render() {
-    const { buttonDisplayName, clickHandler } = this.props;
+    const { handleClick } = this.props;
     return (
       <React.Fragment>
-        <button>{buttonDisplayName}</button>
+        <button onClick={handleClick}>New Quote</button>
       </React.Fragment>
     );
   }
