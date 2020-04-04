@@ -18,9 +18,7 @@ class App extends Component {
     )
       .then((data) => data.json())
       .then((quotes) =>
-        this.setState({ quotes }, () => {
-          this.setState({ selectedQuoteIndex: this.selectedQuoteIndex() });
-        })
+        this.setState({ quotes }, this.handleNextQuote)
       );
   }
 
@@ -44,7 +42,7 @@ class App extends Component {
   };
 
   handleNextQuote = () => {
-    console.log(this.state.selectedQuoteIndex);
+    this.setState({selectedQuoteIndex: this.selectedQuoteIndex()});
   };
 
   render() {
