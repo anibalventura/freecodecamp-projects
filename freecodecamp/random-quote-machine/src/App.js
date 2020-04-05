@@ -1,6 +1,16 @@
 import React, { Component } from "react";
 import { random } from "lodash";
+import "typeface-roboto";
+import { Grid } from "@material-ui/core";
 import QuoteMachine from "./components/quoteMachine";
+
+const style = {
+  container: {
+    alignItems: 'center',
+    display: 'flex',
+    height: '100vh'
+  }
+}
 
 class App extends Component {
   constructor(props) {
@@ -48,12 +58,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" id="quote-box">
-        <QuoteMachine
-          selectedQuote={this.selectedQuote}
-          handleNextQuote={this.handleNextQuote}
-        />
-      </div>
+      <Grid style={style.container} id="quote-box" justify="center">
+        <Grid xs={11} lg={8} item>
+          <QuoteMachine
+            selectedQuote={this.selectedQuote}
+            handleNextQuote={this.handleNextQuote}
+          />
+        </Grid>
+      </Grid>
     );
   }
 }
