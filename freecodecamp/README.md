@@ -7,13 +7,13 @@
 The self-paced curriculum involves 1,400 hours of interactive coding challenges and web development projects. The curriculum is divided into Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, Data Visualization, APIs and Microservices, and Information Security and Quality Assurance. Participants receive a certificate after pass each section.
 
 - **Responsive Web Design Certification**
-  
+
   - [Tribute Page](/freecodecamp/tribute-page/)
   - [Survey Form](/freecodecamp/survey-form/)
   - [Product Landing Page](/freecodecamp/product-landing-page/)
   - [Technical Documentation Page](/freecodecamp/technical-documentation-page/)
   - [Personal Portfolio Webpage](/freecodecamp/personal-portfolio-webpage/)
 
-  - **Front End Libraries Certification**
-  
+- **Front End Libraries Certification**
+
   - [Random Quote Machine](/freecodecamp/random-quote-machine/)
