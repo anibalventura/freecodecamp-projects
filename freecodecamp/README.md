@@ -17,3 +17,4 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
 - **Front End Libraries Certification**
 
   - [Random Quote Machine](/freecodecamp/random-quote-machine/)
+  - [Pomodoro Clock](/freecodecamp/pomodoro-clock/)
