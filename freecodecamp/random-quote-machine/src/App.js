@@ -6,11 +6,11 @@ import QuoteMachine from "./components/quoteMachine";
 
 const style = {
   container: {
-    alignItems: 'center',
-    display: 'flex',
-    height: '100vh'
-  }
-}
+    alignItems: "center",
+    display: "flex",
+    height: "100vh",
+  },
+};
 
 class App extends Component {
   constructor(props) {
@@ -60,10 +60,13 @@ class App extends Component {
     return (
       <Grid style={style.container} id="quote-box" justify="center">
         <Grid xs={11} lg={8} item>
-          <QuoteMachine
-            selectedQuote={this.selectedQuote}
-            handleNextQuote={this.handleNextQuote}
-          />
+          {//This is because of an error for share the quote in twitter link on QuoteMachine.jsx
+          this.selectedQuote ? (
+            <QuoteMachine
+              selectedQuote={this.selectedQuote}
+              handleNextQuote={this.handleNextQuote}
+            />
+          ) : null}
         </Grid>
       </Grid>
     );
