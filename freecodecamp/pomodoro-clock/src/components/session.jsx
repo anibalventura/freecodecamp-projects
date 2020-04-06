@@ -6,7 +6,7 @@ const Session = ({
   incrementSessionLenght,
   decrementSessionLenght,
 }) => {
-  //Use the Moment.js to Session the lenght in minutes
+  //Use the Moment.js to put sessionLegth in minutes
   const sessionLengthMinutes = moment.duration(sessionLength, "s").minutes();
 
   return (
