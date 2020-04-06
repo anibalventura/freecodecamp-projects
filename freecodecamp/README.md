@@ -12,4 +12,8 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
   - [Survey Form](/freecodecamp/survey-form/)
   - [Product Landing Page](/freecodecamp/product-landing-page/)
   - [Technical Documentation Page](/freecodecamp/technical-documentation-page/)
-  - [Personal Portfolio Webpage](https://github.com/anibalventura/anibalventura.github.io)
+  - [Personal Portfolio Webpage](/freecodecamp/personal-portfolio-webpage/)
+
+  - **Front End Libraries Certification**
+  
+  - [Random Quote Machine](/freecodecamp/random-quote-machine/)
