@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import './assets.css';
 import Break from "./components/break";
 import Session from "./components/session";
 import TimeLeft from "./components/timeLeft";
