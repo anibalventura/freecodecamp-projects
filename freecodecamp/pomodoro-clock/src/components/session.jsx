@@ -7,7 +7,7 @@ const Session = ({
   decrementSessionLenght,
 }) => {
   //Use the Moment.js to put sessionLegth in minutes
-  const sessionLengthMinutes = moment.duration(sessionLength, "s").minutes();
+  const sessionLengthMinutes = moment.duration(sessionLength, "s").asMinutes();
 
   return (
     <React.Fragment>

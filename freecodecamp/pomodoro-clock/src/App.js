@@ -19,31 +19,33 @@ const App = () => {
   //Decrease the value of setBreakLength by 1 minute = 60 secs
   const decrementBreakLenght = () => {
     const newBreakLenght = breakLength - 60;
-    if (newBreakLenght < 0) {
-      setBreakLength(0);
-    } else {
+    if (newBreakLenght > 0) {
       setBreakLength(newBreakLenght);
     }
   };
 
   //Increment the value of setBreakLength by 1 minute = 60 secs
   const incrementBreakLenght = () => {
-    setBreakLength(breakLength + 60);
+    const newBreakLenght = breakLength + 60;
+    if (newBreakLenght <= 60 * 60) {
+      setBreakLength(breakLength + 60);
+    }
   };
 
   //Decrease the value of setSessionLength by 1 minute = 60 secs
   const decrementSessionLenght = () => {
     const newSessionLenght = sessionLength - 60;
-    if (newSessionLenght < 0) {
-      setSessionLength(0);
-    } else {
+    if (newSessionLenght > 0) {
       setSessionLength(newSessionLenght);
     }
   };
 
   //Increment the value of setSessionLength by 1 minute = 60 secs
   const incrementSessionLenght = () => {
-    setSessionLength(sessionLength + 60);
+    const newSessionLenght = sessionLength + 60;
+    if (newSessionLenght <= 60 * 60) {
+      setSessionLength(newSessionLenght);
+    }
   };
 
   const isStarted = intervalId != null;
@@ -60,16 +62,17 @@ const App = () => {
         setTimeLeft((prevTimeLeft) => {
           const newTimeLeft = prevTimeLeft - 1;
           if (newTimeLeft >= 0) {
-            return prevTimeLeft - 1;
+            return newTimeLeft;
           }
+
           //Time left is less than zero
-          audioElement.current.play();
+          //TODO: audioElement.current.play();
           //If session:
           if (currentSessionType === "Session") {
             //Switch to break
             setCurrentSessionType("Break");
             //setTimeLeft to breakLength
-            setTimeLeft(breakLength);
+            return breakLength;
           }
 
           //If break:
@@ -77,7 +80,7 @@ const App = () => {
             //Switch to session
             setCurrentSessionType("Session");
             //setTimeLeft to sessionLength
-            setTimeLeft(sessionLength);
+            return sessionLength;
           }
         });
       }, 10);
@@ -87,7 +90,7 @@ const App = () => {
 
   const hanldeReset = () => {
     //Reset the audio
-    audioElement.current.load();
+    //TODO: audioElement.current.load();
     //Clear the timeout interval
     clearInterval(intervalId);
     //Set intervalId null

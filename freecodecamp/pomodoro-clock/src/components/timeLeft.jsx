@@ -19,8 +19,8 @@ const TimeLeft = ({
       <div>
         {formattedTimeLeft}
         <p id="timer-label">{timerLabel}</p>
-        <p id="time-left">{formattedTimeLeft}</p>
-        <button onClick={hanldeStartStop}>{startStopLabel}</button>
+        <p id="timer-left">{formattedTimeLeft}</p>
+        <button id="start_stop" onClick={hanldeStartStop}>{startStopLabel}</button>
       </div>
     </React.Fragment>
   );
