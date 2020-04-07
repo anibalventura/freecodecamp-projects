@@ -1,5 +1,12 @@
 import React from "react";
 import moment from "moment";
+import {
+  BreakSessionContainer,
+  BreakSessionLabel,
+  BreakSessionTime,
+  PlusMinusButtonContainer,
+  PlusMinusButton,
+} from "../ui/breakSessionUi.jsx";
 
 const Session = ({
   sessionLength,
@@ -10,16 +17,26 @@ const Session = ({
   const sessionLengthMinutes = moment.duration(sessionLength, "s").asMinutes();
 
   return (
-    <React.Fragment>
-      <p id="session-label">Session</p>
-      <p id="session-length">{sessionLengthMinutes}</p>
-      <button id="session-decrement" onClick={decrementSessionLenght}>
-        -
-      </button>
-      <button id="session-increment" onClick={incrementSessionLenght}>
-        +
-      </button>
-    </React.Fragment>
+    <BreakSessionContainer>
+      <BreakSessionLabel id="session-label">Session Length</BreakSessionLabel>
+      <BreakSessionTime id="session-length">
+        {sessionLengthMinutes}
+      </BreakSessionTime>
+      <PlusMinusButtonContainer>
+        <PlusMinusButton
+          id="session-decrement"
+          onClick={decrementSessionLenght}
+        >
+          -
+        </PlusMinusButton>
+        <PlusMinusButton
+          id="session-increment"
+          onClick={incrementSessionLenght}
+        >
+          +
+        </PlusMinusButton>
+      </PlusMinusButtonContainer>
+    </BreakSessionContainer>
   );
 };
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import './assets.css';
+import "./assets/main.css";
 import Break from "./components/break";
 import Session from "./components/session";
 import TimeLeft from "./components/timeLeft";
@@ -67,7 +67,7 @@ const App = () => {
           }
 
           //Time left is less than zero
-          //TODO: audioElement.current.play();
+          audioElement.current.play();
           //If session:
           if (currentSessionType === "Session") {
             //Switch to break
@@ -84,14 +84,14 @@ const App = () => {
             return sessionLength;
           }
         });
-      }, 10);
-      TODO: setIntervalId(newIntervalId);
+      }, 1000);
+      setIntervalId(newIntervalId);
     }
   };
 
   const hanldeReset = () => {
     //Reset the audio
-    //TODO: audioElement.current.load();
+    audioElement.current.load();
     //Clear the timeout interval
     clearInterval(intervalId);
     //Set intervalId null
@@ -107,35 +107,36 @@ const App = () => {
   };
 
   return (
-    <React.Fragment>
-      <Break
-        breakLength={breakLength}
-        decrementBreakLenght={decrementBreakLenght}
-        incrementBreakLenght={incrementBreakLenght}
-      />
-      <TimeLeft
-        breakLength={breakLength}
-        sessionLength={sessionLength}
-        timerLabel={currentSessionType}
-        hanldeStartStop={hanldeStartStop}
-        startStopLabel={isStarted ? "Stop" : "Start"}
-        timeLeft={timeLeft}
-      />
-      <Session
-        sessionLength={sessionLength}
-        decrementSessionLenght={decrementSessionLenght}
-        incrementSessionLenght={incrementSessionLenght}
-      />
-      <button id="reset" onClick={hanldeReset}>
-        Reset
-      </button>
+    <div className="flex flex-col h-screen items-center justify-center bg-blue-600">
+      <div className="flex w-full justify-around">
+        <Break
+          breakLength={breakLength}
+          decrementBreakLenght={decrementBreakLenght}
+          incrementBreakLenght={incrementBreakLenght}
+        />
+        <TimeLeft
+          breakLength={breakLength}
+          sessionLength={sessionLength}
+          timerLabel={currentSessionType}
+          hanldeStartStop={hanldeStartStop}
+          startStopLabel={isStarted ? "Stop" : "Start"}
+          hanldeReset={hanldeReset}
+          timeLeft={timeLeft}
+        />
+        <Session
+          sessionLength={sessionLength}
+          decrementSessionLenght={decrementSessionLenght}
+          incrementSessionLenght={incrementSessionLenght}
+        />
+      </div>
+
       <audio
-        src="sounds/beep.mp3"
+        src="https://goo.gl/65cBl1"
         type="audio/mpeg"
         id="beep"
         ref={audioElement}
       ></audio>
-    </React.Fragment>
+    </div>
   );
 };
 
