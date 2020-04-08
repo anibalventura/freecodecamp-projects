@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import FormGroup from "react-bootstrap/FormGroup";
-import FormControl from "react-bootstrap/FormControl";
-import FormLabel from "react-bootstrap/FormLabel";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
 
 const marked = require("marked");
@@ -69,26 +68,34 @@ And here. | Okay. | I think we get it.
     });
 
     return (
-      <div className="App container">
-        <div className="row">
-          <div className="col-md-6 mx-auto">
-            <FormGroup>
-              <FormLabel>Editor</FormLabel>
+      <div className="container-fluid bg-primary pb-4 pt-4 pl-5 pr-5">
+        <h1 className="text-center text-white font-weight-bold mb-4">
+          Markdown Previewer
+        </h1>
+        <div className="row justify-content-md-center">
+          <div className="col-md-5 mr-1 mb-3 border border-light rounded bg-info">
+            <div className="form-group">
+              <h4 className="form-label text-white text-center font-weight-bold pt-3">
+                Editor
+              </h4>
               <br />
-              <FormControl
+              <textarea
+                className="form-control"
                 id="editor"
                 as="textarea"
-                placeholder="Enter Markdown"
+                placeholder="Enter markdown"
                 rows="15"
-                cols="80"
                 defaultValue={markdown}
                 onChange={(event) => this.updateMarkdown(event.target.value)}
-              ></FormControl>
-            </FormGroup>
+              ></textarea>
+            </div>
           </div>
-          <div className="col-md-6 mx-auto">
-            <p>Previewer</p>
+          <div className="col-md-5 mr-1 mb-3 border border-light rounded bg-info">
+            <h4 className="text-white text-center font-weight-bold pt-3 pb-4">
+              Previewer
+            </h4>
             <div
+              className="text-white"
               id="preview"
               dangerouslySetInnerHTML={{ __html: marked(markdown) }}
             ></div>
