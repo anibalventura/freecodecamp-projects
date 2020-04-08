@@ -1,4 +1,4 @@
-# Markdown Previewer [![Netlify Status](https://api.netlify.com/api/v1/badges/130700f4-47cd-44af-b643-82576fa7f8a7/deploy-status)](https://app.netlify.com/sites/randomquotemachine-av/deploys)
+# Markdown Previewer [![Netlify Status](https://api.netlify.com/api/v1/badges/89611954-cc5e-4a76-83b9-c078ff92a390/deploy-status)](https://app.netlify.com/sites/angry-archimedes-91fc53/deploys)
 
 This is a simple page for a markdown previewer. See full site [here](https://markdownpreviewer-av.netlify.com/)
 
