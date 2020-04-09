@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 class Button extends Component {
   sendToParent = () => {
@@ -12,7 +11,7 @@ class Button extends Component {
       <React.Fragment>
         <button
           onClick={this.sendToParent}
-          className="btn bg-info border text-white"
+          className="btn"
         >
           {name}
         </button>
