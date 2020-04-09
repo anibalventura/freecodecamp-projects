@@ -2,10 +2,12 @@ import React, { Component } from "react";
 
 class Screen extends Component {
   render() {
+    const { current, result } = this.props;
     return (
-      <div>
-        <h1>Screen Component</h1>
-      </div>
+      <React.Fragment>
+        <p>{current}</p>
+        <p>{result}</p>
+      </React.Fragment>
     );
   }
 }
