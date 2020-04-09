@@ -4,10 +4,10 @@ class Screen extends Component {
   render() {
     const { current, result } = this.props;
     return (
-      <React.Fragment>
+      <div id="display">
         <p>{current}</p>
         <p>{result}</p>
-      </React.Fragment>
+      </div>
     );
   }
 }

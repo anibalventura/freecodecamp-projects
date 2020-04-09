@@ -4,6 +4,7 @@ import App from "./Components/App.jsx";
 import "./style/App.sass";
 import "./style/Button.sass";
 import "./style/Screen.sass";
+import "./index.sass";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
