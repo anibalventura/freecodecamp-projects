@@ -22,18 +22,18 @@ class App extends Component {
       "AC",
       "+/-",
       "%",
-      "+",
       "7",
       "8",
       "9",
-      "x",
+      "/",
       "4",
       "5",
       "6",
-      "-",
+      "x",
       "1",
       "2",
       "3",
+      "-",
       "+",
       "0",
       ".",
@@ -42,14 +42,24 @@ class App extends Component {
     return (
       <div>
         <h1>App</h1>
-        <Screen current={this.state.current} result={this.state.result} />
-        {buttons.map((items, i) => (
-          <Button
-            handleButtonClick={this.handleButtonClick}
-            key={i}
-            name={items}
-          />
-        ))}
+        <div className="container-fluid">
+          <div className="col">
+            <div className="row">
+              <Screen current={this.state.current} result={this.state.result} />
+            </div>
+            <div className="row justify-content-center align-items-center">
+              <div className="col-md-3">
+                {buttons.map((items, i) => (
+                  <Button
+                    handleButtonClick={this.handleButtonClick}
+                    key={i}
+                    name={items}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
