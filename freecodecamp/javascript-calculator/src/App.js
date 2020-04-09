@@ -1,23 +1,40 @@
-import React from 'react';
+import React, { Component } from "react";
+import Button from "./Components/Button";
+import Screen from "./Components/Screen";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    const buttons = [
+      "AC",
+      "+/-",
+      "%",
+      "+",
+      "7",
+      "8",
+      "9",
+      "x",
+      "4",
+      "5",
+      "6",
+      "-",
+      "1",
+      "2",
+      "3",
+      "+",
+      "0",
+      ".",
+      "=",
+    ];
+    return (
+      <div>
+        <h1>App</h1>
+        <Screen />
+        {buttons.map((items) => (
+          <Button />
+        ))}
+      </div>
+    );
+  }
 }
 
 export default App;
