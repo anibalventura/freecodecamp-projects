@@ -1,4 +1,6 @@
-# Markdown Previewer [![Netlify Status](https://api.netlify.com/api/v1/badges/89611954-cc5e-4a76-83b9-c078ff92a390/deploy-status)](https://app.netlify.com/sites/angry-archimedes-91fc53/deploys)
+# Markdown Previewer
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89611954-cc5e-4a76-83b9-c078ff92a390/deploy-status)](https://app.netlify.com/sites/angry-archimedes-91fc53/deploys)
 
 This is a simple page for a markdown previewer. See full site [here](https://markdownpreviewer-av.netlify.com/)
 
@@ -13,22 +15,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Need to have Node and Npm installed on your machine, also need the following dependencies in order to run the project on your machine.
-
-```
-"@testing-library/jest-dom"
-"@testing-library/react"
-"@testing-library/user-event"
-"bootstrap"
-"marked"
-"react"
-"react-dom"
-"react-scripts"
-```
+Need to have Node and Npm installed on your machine.
 
 ### Installing
 
-After have installed Node and Npm, only need to run the following command in the directory you clone this repository on your machine, this will install all the dependencies mentioned before.
+After have installed Node and Npm, only need to run the following command in the directory you clone this repository.
 
 ```
 npm install
@@ -50,7 +41,8 @@ This project was deploy on [Netlify](www.netlify.com), you cand do it following 
 
 ## Built With
 
-- React with the [create-react-app](https://github.com/facebook/create-react-app).
+- React - [create-react-app](https://github.com/facebook/create-react-app).
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Authors
 
