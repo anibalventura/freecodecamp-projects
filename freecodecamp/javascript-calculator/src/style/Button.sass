@@ -1,6 +1,6 @@
 $middle: #e0e0e0
 $border: #8e8e8e
-$right-edge: #f79331
+$right-edge: #3D9970
 $top-row: #d6d6d6
 
 .btn-container
@@ -18,23 +18,22 @@ $top-row: #d6d6d6
     &:active
       background: darken($middle, 10%)
 
-  //Top row
-  & :nth-child(-n + 3)
-    background: $top-row
-    &:active
-      background: darken($top-row, 10%)
-
-  //Button 0
-  & :nth-child(17)
-    width: 50%
+  & :nth-child(15)
     border-radius: 0 0 0 10px
 
+  & :last-child
+    border-radius: 0 0 10px 0
+
+  & :nth-child(1), & :nth-child(2), & :nth-child(15)
+    width: 50%
+
+  //Top row
+  & :nth-child(-n + 2)
+    background: $top-row
+
   //Operators buttons
-  & :nth-child(4n), & :last-child
+  & :nth-child(6), & :nth-child(10), & :nth-child(14), & :nth-child(17)
     background: $right-edge
     color: white
     &:active
       background: darken($right-edge, 10%)
-
-  & :last-child
-    border-radius: 0 0 10px 0
