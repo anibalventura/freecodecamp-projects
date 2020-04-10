@@ -18,5 +18,6 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
 
   - [Random Quote Machine](/freecodecamp/random-quote-machine/)
   - [Markdown Previewer](/freecodecamp/markdown-previewer/)
+  - [Drum Machine](/freecodecamp/drum-machine/)
   - [Javascript Calculator](/freecodecamp/javascript-calculator/)
   - [Pomodoro Clock](/freecodecamp/pomodoro-clock/)
