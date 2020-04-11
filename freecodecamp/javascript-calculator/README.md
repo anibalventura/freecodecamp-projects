@@ -47,10 +47,6 @@ This project was deploy on [Netlify](www.netlify.com), you cand do it following 
 
 - Anibal Ventura
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## Acknowledgments
 
 - This was made for a project for [freeCodeCamp](https://www.freecodecamp.org/) curriculum.
