@@ -1,18 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Button extends Component {
-  sendToParent = () => {
-    this.props.handleButton(this.props.name);
+const Button = ({ name, id, handleButton }) => {
+  const sendToParent = () => {
+    handleButton(name);
   };
 
-  render() {
-    const { name, id } = this.props;
-    return (
-      <button id={id} onClick={this.sendToParent} className="btn">
-        {name}
-      </button>
-    );
-  }
-}
+  return (
+    <button id={id} onClick={sendToParent} className="btn">
+      {name}
+    </button>
+  );
+};
 
 export default Button;
