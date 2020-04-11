@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./Components/App.jsx";
-import "./style/App.sass";
-import "./style/Button.sass";
-import "./style/Screen.sass";
+import App from "./Components/App/App.jsx";
+import "./Components/App/App.sass";
+import "./Components/Button/Button.sass";
+import "./Components/Screen/Screen.sass";
 import "./index.sass";
 import * as serviceWorker from "./serviceWorker";
 
