@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Button from "../Button/Button";
-import Screen from "../Screen/Screen";
+import Button from "../Button";
+import Screen from "../Screen";
 
 class App extends Component {
   constructor(props) {
