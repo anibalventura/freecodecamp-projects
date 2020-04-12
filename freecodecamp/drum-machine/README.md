@@ -1,12 +1,13 @@
 # Drum Machine
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d41bbd7a-fd19-426b-8d8a-05981b6874c5/deploy-status)](https://app.netlify.com/sites/javascriptcalculator-av/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e37e38a7-5d76-4fef-a93a-b9a3adf31ddd/deploy-status)](https://app.netlify.com/sites/drummachine-av/deploys)
 
 This is a simple page for a javascript calculator. See full site [here](https://drummachine-av.netlify.com/)
 
 ## Features
 
-- \*
+- Press or select a key to play a sound.
+- Display what key is playing
 
 ## Getting Started
 
@@ -41,6 +42,7 @@ This project was deploy on [Netlify](www.netlify.com), you cand do it following 
 ## Built With
 
 - React - [create-react-app](https://github.com/facebook/create-react-app)
+- [Sass](https://sass-lang.com/)
 
 ## Authors
 
