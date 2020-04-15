@@ -21,3 +21,7 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
   - [Drum Machine](/freecodecamp/drum-machine/)
   - [Javascript Calculator](/freecodecamp/javascript-calculator/)
   - [Pomodoro Clock](/freecodecamp/pomodoro-clock/)
+
+  - **Dara Visualization Projects**
+
+  - [Bar Chart](/freecodecamp/bar-chart/)
