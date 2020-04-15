@@ -13,6 +13,7 @@ Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodec
 - HTML
 - CSS
 - Javascript
+- jQuery
 - D3.js
 
 # Authors

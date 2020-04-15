@@ -5,3 +5,27 @@ body {
 h1, h3, p {
   text-align: center;
 }
+
+.axis {
+  font: 15px Arial, sans-serif;
+}
+
+.graph-svg-component {
+  background-color: white;
+  display: block;
+  margin: auto;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #3a3a3a;
+  
+}
+
+.tooltip {
+  position: absolute;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
