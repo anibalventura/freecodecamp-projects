@@ -1,0 +1,9 @@
+body {
+  background-color: lightgray;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}

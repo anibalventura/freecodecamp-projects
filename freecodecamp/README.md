@@ -25,3 +25,4 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
 - **Dara Visualization Projects**
 
   - [Bar Chart](/freecodecamp/bar-chart/)
+  - [Scatterplot Graph](/freecodecamp/scatterplot-graph/)
