@@ -1,8 +1,8 @@
-# Scatterplot Graph
+# Heat Map
 
-Visualize data with a scatterplot graph.
+Visualize data with a Heat Map.
 
-Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodecamp/scatterplot-graph).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodecamp/heat-map).
 
 # Features
 
@@ -13,7 +13,6 @@ Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodec
 - HTML
 - CSS
 - Javascript
-- jQuery
 - D3.js
 
 # Authors

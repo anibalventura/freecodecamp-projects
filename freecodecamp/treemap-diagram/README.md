@@ -1,8 +1,8 @@
-# Scatterplot Graph
+# Treemap Diagram
 
-Visualize data with a scatterplot graph.
+Visualize data with a treemap diagram.
 
-Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodecamp/scatterplot-graph).
+Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodecamp/treemap-diagram).
 
 # Features
 
@@ -13,7 +13,7 @@ Visit live page [here](https://anibalventura.github.io/learning-webdev/freecodec
 - HTML
 - CSS
 - Javascript
-- jQuery
+- Topojson
 - D3.js
 
 # Authors
