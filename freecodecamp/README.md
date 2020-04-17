@@ -26,6 +26,6 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
 
   - [Bar Chart](/freecodecamp/bar-chart/)
   - [Scatterplot Graph](/freecodecamp/scatterplot-graph/)
-  - [heat Map](/freecodecamp/heat-map/)
+  - [Heat Map](/freecodecamp/heat-map/)
   - [Choropleth Map](/freecodecamp/choropleth-map/)
   - [Treemap Diagram](/freecodecamp/treemap-diagram/)
