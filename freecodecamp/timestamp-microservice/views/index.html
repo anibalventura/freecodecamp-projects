@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Timestamp Microservice</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./public/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Timestamp Microservice API</h2>
+      <ol class="use">
+        <li>
+          The API endpoint is
+          <code>GET [project_url]/api/timestamp/:date_string?</code>
+        </li>
+        <li>
+          A date string is valid if can be successfully parsed by
+          <code>new Date(date_string)</code>.<br />
+          Note that the unix timestamp needs to be an
+          <strong>integer</strong> (not a string) specifying
+          <strong>milliseconds</strong>.<br />
+          In our test we will use date strings compliant with ISO-8601 (e.g.
+          <code>"2016-11-20"</code>) because this will ensure an UTC timestamp.
+        </li>
+        <li>
+          If the date string is <strong>empty</strong> it should be equivalent
+          to trigger <code>new Date()</code>, i.e. the service uses the current
+          timestamp.
+        </li>
+        <li>
+          If the date string is <strong>valid</strong> the api returns a JSON
+          having the structure<br /><code
+            >{"unix": &lt;date.getTime()&gt;, "utc" : &lt;date.toUTCString()&gt;
+            }</code
+          ><br />
+          e.g.
+          <code
+            >{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29
+            GMT"}</code
+          >
+        </li>
+        <li>
+          If the date string is <strong>invalid</strong> the api returns a JSON
+          having the structure <br />
+          <code>{"unix": null, "utc" : "Invalid Date" }</code>. It is what you
+          get from the date manipulation functions used above.
+        </li>
+      </ol>
+
+      <h3>Examples:</h3>
+      <ul>
+        <li>
+          <a href="/api/timestamp/2015-12-25" target="_blank"
+            ><code>/api/timestamp/2015-12-25</code></a
+          >
+        </li>
+        <li>
+          <a href="/api/timestamp/1450137600" target="_blank"
+            ><code>/api/timestamp/1450137600</code></a
+          >
+        </li>
+        <li>
+          <a href="/api/timestamp/garbage" target="_blank"
+            ><code>/api/timestamp/garbage</code></a
+          >
+        </li>
+        <li>
+          <a href="/api/timestamp/" target="_blank"
+            ><code>/api/timestamp/</code></a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="footer">
+      <p>
+        Made by
+        <a href="http://www.github.com/anibalventura/">Anibal Ventura</a>
+      </p>
+    </div>
+  </body>
+</html>

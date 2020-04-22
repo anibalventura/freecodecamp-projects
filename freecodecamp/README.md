@@ -22,10 +22,14 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
   - [Javascript Calculator](/freecodecamp/javascript-calculator/)
   - [Pomodoro Clock](/freecodecamp/pomodoro-clock/)
 
-- **Dara Visualization Projects**
+- **Data Visualization Projects**
 
   - [Bar Chart](/freecodecamp/bar-chart/)
   - [Scatterplot Graph](/freecodecamp/scatterplot-graph/)
   - [Heat Map](/freecodecamp/heat-map/)
   - [Choropleth Map](/freecodecamp/choropleth-map/)
   - [Treemap Diagram](/freecodecamp/treemap-diagram/)
+
+- **APIs and Microservices Projects**
+
+  - [Timestamp Microservice](/freecodecamp/timestamp-microservice/)
