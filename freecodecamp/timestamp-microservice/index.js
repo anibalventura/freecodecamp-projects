@@ -24,7 +24,7 @@ app.get("/api/timestamp/:dateString?", (request, response) => {
   // If the date string is invalid the api returns a JSON having the structure
   // {"error" : "Invalid Date" }.
   date.toString() === "Invalid Date"
-    ? response.json({ unix: null, utc: date.toString() })
+    ? response.json({ error: date.toString() })
     : // If the date string is valid the api returns a JSON having the structure
       // e.g. {"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}
       response.json({ unix: date.getTime(), utc: date.toUTCString() });
