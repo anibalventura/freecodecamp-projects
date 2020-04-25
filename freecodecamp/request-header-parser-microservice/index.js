@@ -5,11 +5,11 @@ const cors = require("cors");
 app.use(cors());
 
 app.get("/api/whoami", (request, response) => {
-  const ipadress = "127.0.0.1";
+  const ipaddress = "127.0.0.1";
   const language = request.header("Accept-Language");
   const software = request.header("User-Agent");
 
-  response.json({ipadress, language, software});
+  response.json({ ipaddress, language, software });
 });
 
 app.use(express.static("public"));
