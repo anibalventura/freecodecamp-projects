@@ -68,13 +68,14 @@ app.get("/api/exercise/users", (req, res) => {
 // If no date supplied it will use current date.
 // Returned will be the user object with also with the exercise fields added.
 app.post("/api/exercise/add", (req, res) => {
-  const { userId, description, duration, date } = req.body;
+  const { username, userId, description, duration, date } = req.body;
 
   // IMPORTANT! we are assuming that the data coming from the form is correct!
 
   const dateObj = date === "" ? new Date() : new Date(date);
 
   const newExercise = {
+    username,
     _id: userId,
     description,
     duration: +duration,
