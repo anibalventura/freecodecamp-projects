@@ -1,24 +1,30 @@
 const express = require("express");
 const app = express();
-const bodyParser = require("body-parser");
+const mongo = require("mongodb");
+const mongoose = require("mongoose");
 const shortid = require("shortid");
-
+const bodyParser = require("body-parser");
 const cors = require("cors");
 
 // const mongoose = require('mongoose')
 // mongoose.connect(process.env.MLAB_URI || 'mongodb://localhost/exercise-track' )
-
 app.use(cors());
-
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// Html and Css for page view
 app.use("/public", express.static(process.cwd() + "/public"));
-app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/views/index.html");
+app.get("/", (request, response) => {
+  response.sendFile(`${__dirname}/views/index.html`);
 });
 
-// HERE WE ARE GOING TO DO OUR MAGIC!!
+// PORT
+const portNumber = process.env.PORT || 8000;
+app.listen(portNumber, () => {
+  console.log(`Listening on port ${portNumber}`);
+});
+
+// App
 
 // These are from the frontend forms
 // ON '/api/exercise/new-user' WE GET     username
@@ -137,8 +143,4 @@ app.use((err, req, res, next) => {
     errMessage = err.message || "Internal Server Error";
   }
   res.status(errCode).type("txt").send(errMessage);
-});
-
-const listener = app.listen(process.env.PORT || 8000, () => {
-  console.log("Your app is listening on port " + listener.address().port);
 });
