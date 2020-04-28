@@ -8,6 +8,7 @@ const cors = require("cors");
 
 // const mongoose = require('mongoose')
 // mongoose.connect(process.env.MLAB_URI || 'mongodb://localhost/exercise-track' )
+
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -29,7 +30,6 @@ app.listen(portNumber, () => {
 // These are from the frontend forms
 // ON '/api/exercise/new-user' WE GET     username
 // ON '/api/exercise/add'      WE GET     userId description duration date
-// ID FOR TESTING: Hk90m8HHL
 
 // 0. Create our local DATABASE
 const users = [];
@@ -68,17 +68,16 @@ app.get("/api/exercise/users", (req, res) => {
 // If no date supplied it will use current date.
 // Returned will be the user object with also with the exercise fields added.
 app.post("/api/exercise/add", (req, res) => {
-  const { username, userId, description, duration, date } = req.body;
+  const { userId, description, duration, date } = req.body;
 
   // IMPORTANT! we are assuming that the data coming from the form is correct!
 
   const dateObj = date === "" ? new Date() : new Date(date);
 
   const newExercise = {
-    username,
     _id: userId,
     description,
-    duration: +duration,
+    duration: parseInt(+duration),
     date: dateObj.toString(),
   };
 

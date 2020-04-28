@@ -36,3 +36,4 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
   - [Request Header Parser Microservice](/freecodecamp/request-header-parser-microservice/)
   - [URL Shortener Microservice](/freecodecamp/url-shortener-microservice/)
   - [Exercise Tracker](/freecodecamp/exercise-tracker/)
+  - [File Metadata Microservice](/freecodecamp/file-metadata-microservice/)
