@@ -38,4 +38,4 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
 
 ## License
 
-All the projects/exercises is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+All the projects are licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
