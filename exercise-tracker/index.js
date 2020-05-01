@@ -70,15 +70,14 @@ app.get("/api/exercise/users", (req, res) => {
 app.post("/api/exercise/add", (req, res) => {
   const { userId, description, duration, date } = req.body;
 
-  // IMPORTANT! we are assuming that the data coming from the form is correct!
-
   const dateObj = date === "" ? new Date() : new Date(date);
 
   const newExercise = {
+    username: getUsernameById(userId),
     _id: userId,
     description,
     duration: parseInt(+duration),
-    date: dateObj.toString(),
+    date: dateObj.toDateString(),
   };
 
   exercises.push(newExercise);
@@ -97,8 +96,6 @@ app.get("/api/exercise/log", (req, res) => {
   const { userId, from, to, limit } = req.query;
 
   let log = getExercisesFromUserWithId(userId);
-
-  // IMPORTANT! we are assuming that the data coming from the form is correct!
 
   if (from) {
     const fromDate = new Date(from);
