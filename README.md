@@ -36,6 +36,14 @@ The self-paced curriculum involves 1,400 hours of interactive coding challenges 
   - [Exercise Tracker](/exercise-tracker/)
   - [File Metadata Microservice](/file-metadata-microservice/)
 
+- **Information Security and Quality Assurance Projects**
+
+  - [Metric-Imperial Converter](/metric-imperial-converter/)
+  - [Issue Tracker](/issue-tracker/)
+  - [Personal Library](/personal-library/)
+  - [Stock Price Checker](/stock-price-checker/)
+  - [Anonymous Message Board](/anonymous-message-board/)
+
 ## License
 
 All the projects are licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
