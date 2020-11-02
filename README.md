@@ -2,8 +2,6 @@
 
 Visualize data with a bar chart.
 
-Visit live page [here](https://anibalventura.github.io/freecodecamp-projects/bar-chart).
-
 ## Features
 
 - Mouse hover to see more data.
