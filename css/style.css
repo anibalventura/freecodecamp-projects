@@ -1,0 +1,153 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#navbar header {
+  text-align: center;
+  font-weight: lighter;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar li {
+  width: 100%;
+  position: relative;
+  font-weight: bold;
+}
+
+#navbar li :hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+#main-doc header {
+  font-weight: lighter;
+}
+
+#main-doc p,
+li {
+  font-weight: lighter;
+  color: rgb(65, 65, 65);
+}
+
+#main-doc code {
+  display: block;
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#main-doc code span {
+  color: rgb(212, 22, 197);
+}
+
+#main-doc code,
+span {
+  font-family: monospace;
+}
+
+/*Phone/Tablet View*/
+@media (max-width: 990px) {
+  #navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  #navbar header {
+    padding-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  #navbar ul {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: solid grey 1px;
+  }
+
+  #navbar li {
+    border-top: 1px solid;
+    position: relative;
+    font-size: 1.2em;
+  }
+
+  .nav-link {
+    font-size: 0.9em;
+    padding: 5px 30px;
+    display: block;
+  }
+
+  #main-doc {
+    margin: 300px 5px 5px 5px;
+  }
+
+  #main-doc header {
+    font-size: 1.5em;
+  }
+
+  #main-doc section {
+    margin-top: 40px;
+  }
+}
+
+/*Desktop/Laptop View*/
+@media (min-width: 991px) {
+  #navbar {
+    position: fixed;
+    float: left;
+    padding: 10px 0 0 0;
+    width: 300px;
+    height: 100%;
+    border-right: solid grey;
+    top: 0px;
+    left: 0px;
+  }
+
+  #navbar header {
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+
+  #navbar ul {
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  #navbar li {
+    border-top: 1px solid;
+    position: relative;
+    font-size: 1.2em;
+  }
+
+  .nav-link {
+    font-size: 0.9em;
+    padding: 20px 30px;
+    display: block;
+  }
+
+  #main-doc {
+    margin: 0px 50px 0 330px;
+  }
+
+  #main-doc header {
+    font-size: 1.5em;
+  }
+
+  #main-doc section {
+    margin-top: 40px;
+  }
+
+  #main-doc code {
+    width: 40%;
+  }
+}
