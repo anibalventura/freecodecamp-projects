@@ -1,49 +1,25 @@
-# freeCodeCamp Projects
+# Product Landing Page
 
-[freeCodeCamp](https://www.freecodecamp.org/) is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.
+Single lading page for home-made guitars.
 
-The self-paced curriculum involves 1,400 hours of interactive coding challenges and web development projects. The curriculum is divided into Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, Data Visualization, APIs and Microservices, and Information Security and Quality Assurance. Participants receive a certificate after pass each section.
+Visit live page [here](https://anibalventura.github.io/freecodecamp-projects/product-landing-page).
 
-- **Responsive Web Design Certification**
+## Features
 
-  - [Tribute Page](/tribute-page/)
-  - [Survey Form](/survey-form/)
-  - [Product Landing Page](/product-landing-page/)
-  - [Technical Documentation Page](/technical-documentation-page/)
-  - [Personal Portfolio Webpage](/personal-portfolio-webpage/)
+- Navigation bar always on top of the page.
+- Youtube video for a review of the product.
+- Pricing section with 3 selections.
+- Responsive layout for web and mobile.
 
-- **Front End Libraries Certification**
+## Technologies
 
-  - [Random Quote Machine](/random-quote-machine/)
-  - [Markdown Previewer](/markdown-previewer/)
-  - [Drum Machine](/drum-machine/)
-  - [Javascript Calculator](/javascript-calculator/)
-  - [Pomodoro Clock](/pomodoro-clock/)
+- HTML
+- CSS
 
-- **Data Visualization Projects**
+## Authors
 
-  - [Bar Chart](/bar-chart/)
-  - [Scatterplot Graph](/scatterplot-graph/)
-  - [Heat Map](/heat-map/)
-  - [Choropleth Map](/choropleth-map/)
-  - [Treemap Diagram](/treemap-diagram/)
+- Anibal Ventura
 
-- **APIs and Microservices Projects**
+## Acknowledgments
 
-  - [Timestamp Microservice](/timestamp-microservice/)
-  - [Request Header Parser Microservice](/request-header-parser-microservice/)
-  - [URL Shortener Microservice](/url-shortener-microservice/)
-  - [Exercise Tracker](/exercise-tracker/)
-  - [File Metadata Microservice](/file-metadata-microservice/)
-
-- **Information Security and Quality Assurance Projects**
-
-  - [Metric-Imperial Converter](/metric-imperial-converter/)
-  - [Issue Tracker](/issue-tracker/)
-  - [Personal Library](/personal-library/)
-  - [Stock Price Checker](/stock-price-checker/)
-  - [Anonymous Message Board](/anonymous-message-board/)
-
-## License
-
-All the projects are licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- This was made for a project for [freeCodeCamp](https://www.freecodecamp.org/) curriculum.
