@@ -1,9 +1,5 @@
 # Markdown Previewer
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/89611954-cc5e-4a76-83b9-c078ff92a390/deploy-status)](https://app.netlify.com/sites/angry-archimedes-91fc53/deploys)
-
-This is a simple page for a markdown previewer. See full site [here](https://markdownpreviewer-av.netlify.com/)
-
 ## Features
 
 - Text editor for input on the left.
@@ -34,10 +30,6 @@ npm start
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits. You will also see any lint errors in the console.
-
-## Deployment
-
-This project was deploy on [Netlify](www.netlify.com), you cand do it following [this](https://dev.to/easybuoy/deploying-react-app-from-github-to-netlify-3a9j) tutorial.
 
 ## Built With
 
