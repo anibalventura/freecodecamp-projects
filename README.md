@@ -1,8 +1,6 @@
-# Anibal's Website
+# Personal Portfolio Website
 
-This is my personal website.
-
-Visit site here: [https://anibalventura.github.io/](https://anibalventura.github.io/)
+Simple portfolio to showcase projects.
 
 ## Features
 
