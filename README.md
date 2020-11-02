@@ -2,11 +2,9 @@
 
 Visualize data with a treemap diagram.
 
-Visit live page [here](https://anibalventura.github.io/freecodecamp-projects/treemap-diagram).
-
 ## Features
 
-- Mose hover to see more data.
+- Mouse hover to see more data.
 
 ## Technologies
 
