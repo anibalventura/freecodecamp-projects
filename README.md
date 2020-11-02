@@ -1,9 +1,5 @@
 # Random Quote Machine
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/130700f4-47cd-44af-b643-82576fa7f8a7/deploy-status)](https://app.netlify.com/sites/randomquotemachine-av/deploys)
-
-This is a simple page for a random quote machine. See full site [here](https://randomquotemachine-av.netlify.com/)
-
 ## Features
 
 - Button for get next quote.
