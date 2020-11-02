@@ -2,8 +2,6 @@
 
 Single lading page for home-made guitars.
 
-Visit live page [here](https://anibalventura.github.io/freecodecamp-projects/product-landing-page).
-
 ## Features
 
 - Navigation bar always on top of the page.
