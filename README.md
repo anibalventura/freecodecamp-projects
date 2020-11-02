@@ -1,49 +1,27 @@
-# freeCodeCamp Projects
+# API Project: URL Shortener Microservice for freeCodeCamp
 
-[freeCodeCamp](https://www.freecodecamp.org/) is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.
+See live page [here](https://urlshortenermicroservice-av.herokuapp.com/)
 
-The self-paced curriculum involves 1,400 hours of interactive coding challenges and web development projects. The curriculum is divided into Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, Data Visualization, APIs and Microservices, and Information Security and Quality Assurance. Participants receive a certificate after pass each section.
+1. I can POST a URL to `[project_url]/api/shorturl/new` and I will receive a shortened URL in the JSON response. Example : `{"original_url":"www.google.com","short_url":1}`
+2. If I pass an invalid URL that doesn't follow the valid `http(s)://www.example.com(/more/routes)` format, the JSON response will contain an error like `{"error":"invalid URL"}`. _HINT_: to be sure that the submitted url points to a valid site you can use the function `dns.lookup(host, cb)` from the `dns` core module.
+3. When I visit the shortened URL, it will redirect me to my original link.
 
-- **Responsive Web Design Certification**
+#### Creation Example:
 
-  - [Tribute Page](/tribute-page/)
-  - [Survey Form](/survey-form/)
-  - [Product Landing Page](/product-landing-page/)
-  - [Technical Documentation Page](/technical-documentation-page/)
-  - [Personal Portfolio Webpage](/personal-portfolio-webpage/)
+POST [project_url]/api/shorturl/new - body (urlencoded) : url=https://www.google.com
 
-- **Front End Libraries Certification**
+#### Usage:
 
-  - [Random Quote Machine](/random-quote-machine/)
-  - [Markdown Previewer](/markdown-previewer/)
-  - [Drum Machine](/drum-machine/)
-  - [Javascript Calculator](/javascript-calculator/)
-  - [Pomodoro Clock](/pomodoro-clock/)
+[this_project_url]/api/shorturl/1
 
-- **Data Visualization Projects**
+#### Will redirect to:
 
-  - [Bar Chart](/bar-chart/)
-  - [Scatterplot Graph](/scatterplot-graph/)
-  - [Heat Map](/heat-map/)
-  - [Choropleth Map](/choropleth-map/)
-  - [Treemap Diagram](/treemap-diagram/)
+https://www.freecodecamp.org/forum/
 
-- **APIs and Microservices Projects**
+## Authors
 
-  - [Timestamp Microservice](/timestamp-microservice/)
-  - [Request Header Parser Microservice](/request-header-parser-microservice/)
-  - [URL Shortener Microservice](/url-shortener-microservice/)
-  - [Exercise Tracker](/exercise-tracker/)
-  - [File Metadata Microservice](/file-metadata-microservice/)
+- Anibal Ventura
 
-- **Information Security and Quality Assurance Projects**
+## Acknowledgments
 
-  - [Metric-Imperial Converter](/metric-imperial-converter/)
-  - [Issue Tracker](/issue-tracker/)
-  - [Personal Library](/personal-library/)
-  - [Stock Price Checker](/stock-price-checker/)
-  - [Anonymous Message Board](/anonymous-message-board/)
-
-## License
-
-All the projects are licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- This was made for a project for [freeCodeCamp](https://www.freecodecamp.org/) curriculum.
