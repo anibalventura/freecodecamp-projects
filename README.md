@@ -4,45 +4,51 @@
 
 The self-paced curriculum involves 1,400 hours of interactive coding challenges and web development projects. The curriculum is divided into Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, Data Visualization, APIs and Microservices, and Information Security and Quality Assurance. Participants receive a certificate after pass each section.
 
+## Checking out each project
+
+The master branch is "empty" because each project will be on a separate branch.
+
+## Projects
+
 - **Responsive Web Design Certification**
 
-  - [Tribute Page](/tribute-page/)
-  - [Survey Form](/survey-form/)
-  - [Product Landing Page](/product-landing-page/)
-  - [Technical Documentation Page](/technical-documentation-page/)
-  - [Personal Portfolio Webpage](/personal-portfolio-webpage/)
+  - [Tribute Page](https://github.com/anibalventura/freecodecamp-projects/tree/tribute-page/)
+  - [Survey Form](https://github.com/anibalventura/freecodecamp-projects/tree/survey-form/)
+  - [Product Landing Page](https://github.com/anibalventura/freecodecamp-projects/tree/product-landing-page/)
+  - [Technical Documentation Page](https://github.com/anibalventura/freecodecamp-projects/tree/technical-documentation-page/)
+  - [Personal Portfolio Webpage](https://github.com/anibalventura/freecodecamp-projects/tree/personal-portfolio-webpage/)
 
 - **Front End Libraries Certification**
 
-  - [Random Quote Machine](/random-quote-machine/)
+  - [Random Quote Machine](https://github.com/anibalventura/freecodecamp-projects/tree/random-quote-machine/)
   - [Markdown Previewer](/markdown-previewer/)
-  - [Drum Machine](/drum-machine/)
-  - [Javascript Calculator](/javascript-calculator/)
-  - [Pomodoro Clock](/pomodoro-clock/)
+  - [Drum Machine](https://github.com/anibalventura/freecodecamp-projects/tree/drum-machine/)
+  - [Javascript Calculator](https://github.com/anibalventura/freecodecamp-projects/tree/javascript-calculator/)
+  - [Pomodoro Clock](https://github.com/anibalventura/freecodecamp-projects/tree/pomodoro-clock/)
 
 - **Data Visualization Projects**
 
-  - [Bar Chart](/bar-chart/)
-  - [Scatterplot Graph](/scatterplot-graph/)
-  - [Heat Map](/heat-map/)
-  - [Choropleth Map](/choropleth-map/)
-  - [Treemap Diagram](/treemap-diagram/)
+  - [Bar Chart](https://github.com/anibalventura/freecodecamp-projects/tree/bar-chart/)
+  - [Scatterplot Graph](https://github.com/anibalventura/freecodecamp-projects/tree/scatterplot-graph/)
+  - [Heat Map](https://github.com/anibalventura/freecodecamp-projects/tree/heat-map/)
+  - [Choropleth Map](https://github.com/anibalventura/freecodecamp-projects/tree/choropleth-map/)
+  - [Treemap Diagram](https://github.com/anibalventura/freecodecamp-projects/tree/treemap-diagram/)
 
 - **APIs and Microservices Projects**
 
-  - [Timestamp Microservice](/timestamp-microservice/)
-  - [Request Header Parser Microservice](/request-header-parser-microservice/)
-  - [URL Shortener Microservice](/url-shortener-microservice/)
-  - [Exercise Tracker](/exercise-tracker/)
-  - [File Metadata Microservice](/file-metadata-microservice/)
+  - [Timestamp Microservice](https://github.com/anibalventura/freecodecamp-projects/tree/timestamp-microservice/)
+  - [Request Header Parser Microservice](https://github.com/anibalventura/freecodecamp-projects/tree/request-header-parser-microservice/)
+  - [URL Shortener Microservice](https://github.com/anibalventura/freecodecamp-projects/tree/url-shortener-microservice/)
+  - [Exercise Tracker](https://github.com/anibalventura/freecodecamp-projects/tree/exercise-tracker/)
+  - [File Metadata Microservice](https://github.com/anibalventura/freecodecamp-projects/tree/file-metadata-microservice/)
 
 - **Information Security and Quality Assurance Projects**
 
   - [Metric-Imperial Converter](/metric-imperial-converter/)
-  - [Issue Tracker](/issue-tracker/)
-  - [Personal Library](/personal-library/)
-  - [Stock Price Checker](/stock-price-checker/)
-  - [Anonymous Message Board](/anonymous-message-board/)
+  - [Issue Tracker](https://github.com/anibalventura/freecodecamp-projects/tree/issue-tracker/)
+  - [Personal Library](https://github.com/anibalventura/freecodecamp-projects/tree/personal-library/)
+  - [Stock Price Checker](https://github.com/anibalventura/freecodecamp-projects/tree/stock-price-checker/)
+  - [Anonymous Message Board](https://github.com/anibalventura/freecodecamp-projects/tree/anonymous-message-board/)
 
 ## License
 
