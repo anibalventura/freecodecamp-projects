@@ -1,9 +1,5 @@
 # Drum Machine
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e37e38a7-5d76-4fef-a93a-b9a3adf31ddd/deploy-status)](https://app.netlify.com/sites/drummachine-av/deploys)
-
-This is a simple page for a javascript drum machine. See full site [here](https://drummachine-av.netlify.com/)
-
 ## Features
 
 - Press or select a key to play a sound.
