@@ -1,7 +1,5 @@
 # File Metadata Microservice API
 
-See live page [here](https://filemetadatamicroservice-av.herokuapp.com/)
-
 ### User stories:
 
 1. I can submit a form that includes a file upload.
