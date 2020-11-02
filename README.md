@@ -1,49 +1,53 @@
-# freeCodeCamp Projects
+# Drum Machine
 
-[freeCodeCamp](https://www.freecodecamp.org/) is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e37e38a7-5d76-4fef-a93a-b9a3adf31ddd/deploy-status)](https://app.netlify.com/sites/drummachine-av/deploys)
 
-The self-paced curriculum involves 1,400 hours of interactive coding challenges and web development projects. The curriculum is divided into Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, Data Visualization, APIs and Microservices, and Information Security and Quality Assurance. Participants receive a certificate after pass each section.
+This is a simple page for a javascript drum machine. See full site [here](https://drummachine-av.netlify.com/)
 
-- **Responsive Web Design Certification**
+## Features
 
-  - [Tribute Page](/tribute-page/)
-  - [Survey Form](/survey-form/)
-  - [Product Landing Page](/product-landing-page/)
-  - [Technical Documentation Page](/technical-documentation-page/)
-  - [Personal Portfolio Webpage](/personal-portfolio-webpage/)
+- Press or select a key to play a sound.
+- Display what key is playing
 
-- **Front End Libraries Certification**
+## Getting Started
 
-  - [Random Quote Machine](/random-quote-machine/)
-  - [Markdown Previewer](/markdown-previewer/)
-  - [Drum Machine](/drum-machine/)
-  - [Javascript Calculator](/javascript-calculator/)
-  - [Pomodoro Clock](/pomodoro-clock/)
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-- **Data Visualization Projects**
+### Prerequisites
 
-  - [Bar Chart](/bar-chart/)
-  - [Scatterplot Graph](/scatterplot-graph/)
-  - [Heat Map](/heat-map/)
-  - [Choropleth Map](/choropleth-map/)
-  - [Treemap Diagram](/treemap-diagram/)
+Need to have Node and Npm installed on your machine.
 
-- **APIs and Microservices Projects**
+### Installing
 
-  - [Timestamp Microservice](/timestamp-microservice/)
-  - [Request Header Parser Microservice](/request-header-parser-microservice/)
-  - [URL Shortener Microservice](/url-shortener-microservice/)
-  - [Exercise Tracker](/exercise-tracker/)
-  - [File Metadata Microservice](/file-metadata-microservice/)
+After have installed Node and Npm, only need to run the following command in the directory you clone this repository.
 
-- **Information Security and Quality Assurance Projects**
+```
+npm install
+```
 
-  - [Metric-Imperial Converter](/metric-imperial-converter/)
-  - [Issue Tracker](/issue-tracker/)
-  - [Personal Library](/personal-library/)
-  - [Stock Price Checker](/stock-price-checker/)
-  - [Anonymous Message Board](/anonymous-message-board/)
+To runs the app in the development mode.
 
-## License
+```
+npm start
+```
 
-All the projects are licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits. You will also see any lint errors in the console.
+
+## Deployment
+
+This project was deploy on [Netlify](www.netlify.com), you cand do it following [this](https://dev.to/easybuoy/deploying-react-app-from-github-to-netlify-3a9j) tutorial.
+
+## Built With
+
+- React - [create-react-app](https://github.com/facebook/create-react-app)
+- [Sass](https://sass-lang.com/)
+
+## Authors
+
+- Anibal Ventura
+
+## Acknowledgments
+
+- This was made for a project for [freeCodeCamp](https://www.freecodecamp.org/) curriculum.
