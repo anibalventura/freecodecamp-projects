@@ -1,8 +1,6 @@
-# API Project: Request Header Parser Microservice for freeCodeCamp
+# API Request Header Parser Microservice
 
 I can get the IP address, preferred languages (from header `Accept-Language`) and system infos (from header `User-Agent`) for my device.
-
-See live page [here](https://requestheaderparsermicroser-av.herokuapp.com/)
 
 #### Example usage:
 
