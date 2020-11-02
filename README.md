@@ -1,49 +1,26 @@
-# freeCodeCamp Projects
+# Timestamp Microservice API
 
-[freeCodeCamp](https://www.freecodecamp.org/) is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.
+1. The API endpoint is `GET https://timestampmicroservice-av.herokuapp.com/api/timestamp/:date_string?`
+2. A date string is valid if can be successfully parsed by `new Date(date_string)` (JS) . Note that the unix timestamp needs to be an **integer** (not a string) specifying **milliseconds**. In our test we will use date strings compliant with ISO-8601 (e.g. `"2016-11-20"`) because this will ensure an UTC timestamp.
+3. If the date string is **empty** it should be equivalent to trigger `new Date()`, i.e. the service uses the current timestamp.
+4. If the date string is **valid** the api returns a JSON having the structure
+   `{"unix": <date.getTime()>, "utc" : <date.toUTCString()> }`
+   e.g. `{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}`.
+5. If the date string is **invalid** the api returns a JSON having the structure `{"unix": null, "utc" : "Invalid Date" }`. It is what you get from the date manipulation functions used above.
 
-The self-paced curriculum involves 1,400 hours of interactive coding challenges and web development projects. The curriculum is divided into Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, Data Visualization, APIs and Microservices, and Information Security and Quality Assurance. Participants receive a certificate after pass each section.
+#### Example usage:
 
-- **Responsive Web Design Certification**
+- https://timestampmicroservice-av.herokuapp.com/api/timestamp/2015-12-15
+- https://timestampmicroservice-av.herokuapp.com/api/timestamp/1450137600000
 
-  - [Tribute Page](/tribute-page/)
-  - [Survey Form](/survey-form/)
-  - [Product Landing Page](/product-landing-page/)
-  - [Technical Documentation Page](/technical-documentation-page/)
-  - [Personal Portfolio Webpage](/personal-portfolio-webpage/)
+#### Example output:
 
-- **Front End Libraries Certification**
+- { "unix": 1450137600, "natural": "December 15, 2015" }
 
-  - [Random Quote Machine](/random-quote-machine/)
-  - [Markdown Previewer](/markdown-previewer/)
-  - [Drum Machine](/drum-machine/)
-  - [Javascript Calculator](/javascript-calculator/)
-  - [Pomodoro Clock](/pomodoro-clock/)
+## Authors
 
-- **Data Visualization Projects**
+- Anibal Ventura
 
-  - [Bar Chart](/bar-chart/)
-  - [Scatterplot Graph](/scatterplot-graph/)
-  - [Heat Map](/heat-map/)
-  - [Choropleth Map](/choropleth-map/)
-  - [Treemap Diagram](/treemap-diagram/)
+## Acknowledgments
 
-- **APIs and Microservices Projects**
-
-  - [Timestamp Microservice](/timestamp-microservice/)
-  - [Request Header Parser Microservice](/request-header-parser-microservice/)
-  - [URL Shortener Microservice](/url-shortener-microservice/)
-  - [Exercise Tracker](/exercise-tracker/)
-  - [File Metadata Microservice](/file-metadata-microservice/)
-
-- **Information Security and Quality Assurance Projects**
-
-  - [Metric-Imperial Converter](/metric-imperial-converter/)
-  - [Issue Tracker](/issue-tracker/)
-  - [Personal Library](/personal-library/)
-  - [Stock Price Checker](/stock-price-checker/)
-  - [Anonymous Message Board](/anonymous-message-board/)
-
-## License
-
-All the projects are licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- This was made for a project for [freeCodeCamp](https://www.freecodecamp.org/) curriculum.
